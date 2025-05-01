@@ -62,11 +62,10 @@ Tasks – Each agent is assigned a defined role with tool access and output expe
 Sequential Flow – The agents execute one after another, ensuring dependencies are respected
 
 🧠 Built on CrewAI's structured agent collaboration, this system brings together LLMs, APIs, and real-time data to produce intelligent financial insights.
+
 ![Architecture Overview](architecture_overview.png)
 
 ---
-## ✅ Results
-
 ## ✅ Results
 
 ### 📊 Comparative Evaluation: AI vs. Analyst Consensus
