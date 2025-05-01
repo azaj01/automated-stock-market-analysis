@@ -67,17 +67,49 @@ Sequential Flow – The agents execute one after another, ensuring dependencies 
 ---
 ## ✅ Results
 
-![Results](Result_1.png)
+## ✅ Results
 
-🧠 Sample Analysis: Tesla (TSLA)
-The system generated the following recommendation using its multi-agent CrewAI architecture:
-→ Program Output: Hold
+### 📊 Comparative Evaluation: AI vs. Analyst Consensus
 
-🔎 External Analyst Verdict:
-According to TipRanks, the current consensus from 40 Wall Street analysts also recommends a Hold rating on Tesla.
+Our CrewAI-powered LLM system was benchmarked against gold-standard analyst forecasts from TipRanks using three high-profile stocks — NVDA, TSLA, and GME.
 
-✅ Conclusion:
-The system's final recommendation aligns with that of a trusted financial analysis platform, validating the effectiveness and reliability of our LLM-based pipeline.
+---
+
+### 🟢 NVDA (NVIDIA Corporation)
+
+![NVDA Result](NVDA.png)
+
+- 🧠 **AI Justification**: Average target $160.47 → Predicted `BUY`
+- 🏅 **TipRanks Consensus**: Average target $167.09 → Recommended `BUY`
+- 🧪 **BERTScore**: `Precision: 0.9126`, `Recall: 0.9485`, `F1: 0.9302`
+
+---
+
+### 🟡 TSLA (Tesla, Inc.)
+
+![TSLA Result](TSLA.png)
+
+- 🧠 **AI Justification**: Average target $304.38 → Predicted `HOLD`
+- 🏅 **TipRanks Consensus**: Average target $283.69 → Recommended `HOLD`
+- 🧪 **BERTScore**: `Precision: 0.7982`, `Recall: 0.8612`, `F1: 0.8285`
+
+---
+
+### 🔴 GME (GameStop Corp.)
+
+![GME Result](GMA.png)
+
+- 🧠 **AI Justification**: Average target $13.50 → Predicted `SELL`
+- 🏅 **TipRanks Consensus**: Average target $13.50 → Recommended `SELL`
+- 🧪 **BERTScore**: `Precision: 0.7964`, `Recall: 0.8688`, `F1: 0.8310`
+
+---
+
+### 💡 Conclusion
+
+Our system's final recommendations closely mirror those from trusted platforms like TipRanks.  
+With BERTScore F1 values consistently above `0.82`, this validates the reliability, interpretability, and effectiveness of our multi-agent LLM-based financial analysis pipeline.
+
 
 ---
 
