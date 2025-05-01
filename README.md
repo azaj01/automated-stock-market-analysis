@@ -80,7 +80,7 @@ Our CrewAI-powered LLM system was benchmarked against gold-standard analyst fore
 ![NVDA Result](NVDA.png)
 
 - 🧠 **AI Justification**: Average target $160.47 → Predicted `BUY`
-- 🏅 **TipRanks Consensus**: Average target $167.09 → Recommended `BUY`
+- 🏅 **TipRanks Consensus**: Average target $168.43 → Recommended `BUY`
 - 🧪 **BERTScore**: `Precision: 0.9126`, `Recall: 0.9485`, `F1: 0.9302`
 
 ---
@@ -90,14 +90,14 @@ Our CrewAI-powered LLM system was benchmarked against gold-standard analyst fore
 ![TSLA Result](TSLA.png)
 
 - 🧠 **AI Justification**: Average target $304.38 → Predicted `HOLD`
-- 🏅 **TipRanks Consensus**: Average target $283.69 → Recommended `HOLD`
+- 🏅 **TipRanks Consensus**: Average target $284.74 → Recommended `HOLD`
 - 🧪 **BERTScore**: `Precision: 0.7982`, `Recall: 0.8612`, `F1: 0.8285`
 
 ---
 
 ### 🔴 GME (GameStop Corp.)
 
-![GME Result](GMA.png)
+![GME Result](GME.png)
 
 - 🧠 **AI Justification**: Average target $13.50 → Predicted `SELL`
 - 🏅 **TipRanks Consensus**: Average target $13.50 → Recommended `SELL`
