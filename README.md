@@ -114,6 +114,6 @@ With BERTScore F1 values consistently above `0.82`, this validates the reliabili
 
 
 
-## 📬 Contact
+##  Contact
 
 For queries or collaborations, please reach out to [Pranav CR](https://github.com/PranavCR01).
